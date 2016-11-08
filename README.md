@@ -1,5 +1,5 @@
 # Simple-Programming-Problems
-This is simply a series of programming problems I will be undertaking slowly to gain more experience with programming. Credit goes completely to Adrian Neumann (https://adriann.github.io/programming_problems.html), I merely just took this and formatted everything so that I could show my solutions publicly, as I feel that would give me more motivation.
+This is simply a series of programming problems I will be undertaking slowly to gain more experience with programming. Credit goes completely to <a href="https://adriann.github.io/programming_problems.html">Adrian Neumann</a>, I merely just took this and formatted everything so that I could show my solutions publicly, as I feel that would give me more motivation.
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -7,7 +7,7 @@ This page is a collection of progressively more difficult exercises that are sui
 
 I suppose they are also useful, although much easier, whenever an experienced person wants to learn a new language.
 
-This guide has been translated to Chinese by Fidel Yi. Simple Programming Problems in Chinese (https://github.com/yisha7/SimpleProgrammingProblems)
+This guide has been translated to Chinese by Fidel Yi. <a href="https://github.com/yisha7/SimpleProgrammingProblems"> Simple Programming Problems in Chinese</a>
 
 <h1><b>Elementary</b></h1>
 
@@ -42,7 +42,7 @@ If your language of choice doesn’t have a build in list and/or string type (e.
 12. Write a function that rotates a list by k elements. For example [1,2,3,4,5,6] rotated by two becomes [3,4,5,6,1,2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 13. Write a function that computes the list of the first 100 Fibonacci numbers.
 14. Write a function that takes a number and returns a list of its digits.
-15. Write functions that add, subtract, and multiply two numbers in their digit-list representation (and return a new digit list). If you’re ambitious you can implement Karatsuba multiplication. Try different bases (https://en.wikipedia.org/wiki/Radix). What is the best base if you care about speed? If you couldn’t completely solve the prime number exercise above due to the lack of large numbers in your language, you can now use your own library for this task.
+15. Write functions that add, subtract, and multiply two numbers in their digit-list representation (and return a new digit list). If you’re ambitious you can implement Karatsuba multiplication. Try different <a href="https://en.wikipedia.org/wiki/Radix">bases</a>. What is the best base if you care about speed? If you couldn’t completely solve the prime number exercise above due to the lack of large numbers in your language, you can now use your own library for this task.
 16. Implement the following sorting algorithms: Selection sort, Insertion sort, Merge sort, Quick sort, Stooge Sort. Check Wikipedia for descriptions.
 17. Implement binary search.
 18. Write a function that takes a list of strings an prints them, one per line, in a rectangular frame. For example the list ["Hello", "World", "in", "a", "frame"] gets printed as: <br /><img src="https://my.mixtape.moe/gogvzf.png"></img>
@@ -73,18 +73,18 @@ If your language of choice doesn’t have a build in list and/or string type (e.
 1. Given two strings, write a program that efficiently finds the longest common subsequence.
 2. Given an array with numbers, write a program that efficiently answers queries of the form: “Which is the nearest larger value for the number at position i?”, where distance is the difference in array indices. For example in the array [1,4,3,2,5,7], the nearest larger value for 4 is 5. After linear time preprocessing you should be able to answer queries in constant time.
 3. Given two strings, write a program that outputs the shortest sequence of character insertions and deletions that turn one string into the other.
-4. Write a function that multiplies two matrices together. Make it as efficient as you can and compare the performance to a polished linear algebra library for your language. You might want to read about Strassen’s algorithm (https://en.wikipedia.org/wiki/Strassen_algorithm) and the effects CPU caches have. Try out different matrix layouts and see what happens.
-5. Implement a van Emde Boas (https://en.wikipedia.org/wiki/Van_Emde_Boas_tree) tree. Compare it with your previous search tree implementations.
+4. Write a function that multiplies two matrices together. Make it as efficient as you can and compare the performance to a polished linear algebra library for your language. You might want to read about <a href="https://en.wikipedia.org/wiki/Strassen_algorithm">Strassen’s algorithm</a> and the effects CPU caches have. Try out different matrix layouts and see what happens.
+5. Implement a <a href="https://en.wikipedia.org/wiki/Van_Emde_Boas_tree">van Emde Boas</a> tree. Compare it with your previous search tree implementations.
 6. Given a set of d-dimensional rectangular boxes, write a program that computes the volume of their union. Start with 2D and work your way up.
 
 <h1><b>GUI</b></h1>
 
 1. Write a program that displays a bouncing ball.
-2. Write a Memory (https://en.wikipedia.org/wiki/Memory_%28game%29) game.
+2. Write a <a href="https://en.wikipedia.org/wiki/Memory_%28game%29">Memory</a> game.
 3. Write a Tetris clone
 
 <h1><b>Open Ended</b></h1>
 
-1. Write a program that plays Hangman as good as possible. For example you can use a large dictionary like this (http://wordlist.sourceforge.net/) and select the letter that excludes most words that are still possible solutions. Try to make the program as efficient as possible, i.e. don’t scan the whole dictionary in every turn.
+1. Write a program that plays Hangman as good as possible. For example you can use a large dictionary like <a href="http://wordlist.sourceforge.net/">this</a> and select the letter that excludes most words that are still possible solutions. Try to make the program as efficient as possible, i.e. don’t scan the whole dictionary in every turn.
 2. Write a program that plays Rock, Paper, Scissors better than random against a human. Try to exploit that humans are very bad at generating random numbers.
 3. Write a program that plays Battle Ship against human opponents. It takes coordinates as input and outputs whether that was a hit or not and its own shot’s coordinates.
